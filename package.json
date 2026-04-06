@@ -1,0 +1,13 @@
+{
+  "name": "the-toothsavvy",
+  "version": "1.0.0",
+  "description": "Dental clinic website with sliding text animation",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 8000 -o",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["dental", "clinic", "website"],
+  "author": "",
+  "license": "ISC"
+}
