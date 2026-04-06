@@ -1,0 +1,61 @@
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; /* center it */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.img {
+  width: 300px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  gap: 10px; /* space between images */
+}
+
+.container img {
+  width: 200px;
+  height: auto;
+}
+
+.logo {
+  width: 100px;
+  height: 12px;
+}
+
+.sliding-text {
+  animation: slide 3s ease-in-out infinite;
+  overflow: hidden;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.book-btn {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  background-color: blue; /* WhatsApp green */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.book-btn:hover {
+  opacity: 0.8;
+}
