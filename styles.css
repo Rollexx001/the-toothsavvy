@@ -27,6 +27,32 @@ img {
   height: 12px;
 }
 
+.menu {
+  background-color: #333;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #555;
+}
+
 .sliding-text {
   animation: slide 3s ease-in-out infinite;
   overflow: hidden;
@@ -58,4 +84,30 @@ img {
 
 .book-btn:hover {
   opacity: 0.8;
+}
+.navbar {
+  background: #333;
+  color: black;
+  padding: 15px;
+}
+
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.menu {
+  display: none; /* hidden by default */
+  background: #444;
+}
+
+.menu a {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #555;
 }
